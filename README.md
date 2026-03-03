@@ -4,20 +4,22 @@
 
   ![License](https://img.shields.io/badge/license-MIT-blue)
   ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)
-  ![Status](https://img.shields.io/badge/status-in%20development-orange)
+  ![Status](https://img.shields.io/badge/status-planned-red)
 </div>
 
 ---
 
 ## What is Project Nova?
 
-Project Nova is a free, open-source desktop application that gives you a full suite of AI tools — running entirely on your own machine. No subscriptions. No cloud. No data leaving your PC.
+Project Nova is a planned free, open-source desktop application that brings a full suite of AI tools together — running entirely on your own machine. No subscriptions. No cloud. No data leaving your PC.
 
 Built for creators, researchers, and developers who want real AI power without the privacy trade-offs.
 
+> ⚠️ **This project is in early planning stages. No code exists yet. Contributions, feedback, and ideas are welcome!**
+
 ---
 
-## Features
+## Planned Features
 
 | | Feature | Description |
 |---|---|---|
@@ -32,39 +34,7 @@ Built for creators, researchers, and developers who want real AI power without t
 
 ---
 
-## Requirements
-
-- **OS**: Windows 10/11 (macOS & Linux support planned)
-- **RAM**: 16GB minimum, **32GB recommended**
-- **GPU**: NVIDIA GPU with **8GB+ VRAM** (12GB recommended)
-- **Storage**: 20GB+ free space for models
-- **CUDA**: 11.8 or higher
-
-> ✅ Optimized and tested on RTX 3060 12GB + 32GB RAM
-
----
-
-## Quickstart
-```bash
-# 1. Clone the repo
-git clone https://github.com/yourusername/project-nova.git
-cd project-nova
-
-# 2. Install dependencies
-npm install
-
-# 3. Run in development
-npm run tauri dev
-
-# 4. Build for production
-npm run tauri build
-```
-
-> On first launch, Nova will guide you through downloading the models you need.
-
----
-
-## Models Used
+## Planned Models
 
 | Feature | Model |
 |---|---|
@@ -80,11 +50,11 @@ npm run tauri build
 | Voice Cloning | Chatterbox |
 | File Parsing | Apache Tika + Whisper |
 
-All models are free and run 100% locally.
+All models are free and will run 100% locally.
 
 ---
 
-## Tech Stack
+## Planned Tech Stack
 
 - **Desktop** — [Tauri](https://tauri.app/) (Rust)
 - **Frontend** — React + Tailwind CSS
@@ -97,31 +67,40 @@ All models are free and run 100% locally.
 
 ---
 
+## Target Hardware
+
+- **RAM**: 16GB minimum, 32GB recommended
+- **GPU**: NVIDIA GPU with 8GB+ VRAM (12GB recommended)
+- **Storage**: 20GB+ free for models
+- **CUDA**: 11.8+
+
+> Optimized for RTX 3060 12GB + 32GB RAM
+
+---
+
 ## Roadmap
 
-- [x] Project spec & planning
-- [ ] Core UI shell (Tauri + React)
+- [x] Project planning & spec
+- [ ] Repository setup & architecture design
+- [ ] Core UI shell
 - [ ] AI Chat + Ollama integration
-- [ ] Web search via SearXNG
-- [ ] File reading (RAG pipeline)
+- [ ] Web search + file reading (RAG)
 - [ ] Research Mode
-- [ ] Image Studio (FLUX + tools)
-- [ ] Voice Studio (Chatterbox)
-- [ ] Video Studio (Wan2.1)
+- [ ] Image Studio
+- [ ] Voice Studio
+- [ ] Video Studio
 - [ ] Storage & Prompt Library
 - [ ] Model Manager
-- [ ] One-click Windows installer
+- [ ] Windows installer
 - [ ] macOS & Linux support
 
 ---
 
 ## Contributing
 
-Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting a PR.
-```bash
-# Fork the repo, create a branch, make your changes, open a PR
-git checkout -b feature/your-feature-name
-```
+The project hasn't started yet but contributions, ideas, and feedback are already welcome! Feel free to open an issue to discuss features, report suggestions, or ask questions.
+
+Once development begins, a full `CONTRIBUTING.md` will be added.
 
 ---
 
