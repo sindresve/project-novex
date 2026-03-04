@@ -56,7 +56,7 @@ All models are free and will run 100% locally.
 
 ## Planned Tech Stack
 
-- **Desktop** — dont know yet
+- **Backend** — Python + FastAPI
 - **Frontend** — React + Tailwind CSS
 - **LLMs** — [Ollama](https://ollama.com/)
 - **Image & Video** — [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
